@@ -1,0 +1,77 @@
+.calc {
+	background-color: black;
+	width: 300px;
+    height: 600px;
+	margin: 0 auto;			
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.calcScreen {
+	width: 300px;
+	height: 170px;
+	margin: 0 auto;	
+	font-size: xx-large;
+	color: white;
+	text-align: right;
+    display: flex;
+    align-items: flex-end;
+}
+
+h2 {
+    -webkit-user-select: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system;
+    font-weight: 400;
+    margin: 0;
+    margin-left: auto;
+}
+
+.button {
+    color: white;
+	margin-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.btn {
+    -webkit-user-select: none;
+    font-family: -apple-system;
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+    background-color: rgb(103, 103, 103);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.grey {
+    background-color: rgb(205, 202, 202);
+    color: black;
+}
+
+.orange{
+    color: white;
+    background-color: orange;
+}
+
+.btn:hover {
+    filter: brightness(120%)
+}
+
+.btn:active{
+	background-color: #e0e0d1;
+    color: black;
+}
+
+.orange:active {
+    background-color: white;
+    color: orange;
+}
